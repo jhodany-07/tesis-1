@@ -1,0 +1,14 @@
+---
+title: "Aprendiendo-latex +Rmakdown"
+format: html
+editor: visual
+---
+
+# Markdown
+## Letritas
+**negrita**
+_italica_
+
+
+#Latex
+$$\frac{a + b}{c - d}$$

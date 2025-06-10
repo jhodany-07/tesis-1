@@ -1,0 +1,155 @@
+---
+title: "Articles: Tables & Figures"
+format:
+  html:
+    toc: true
+    toc-expand: 2
+    toc-location: left
+    number-sections: true
+    self-contained: true
+    code-fold: true
+    output-file: "analisis"
+editor_options: 
+  chunk_output_type: console
+execute: 
+  warning: false
+  message: false
+  echo: false
+---
+
+# Project Setup
+
+```{r}
+#| label:  setup
+
+source('https://inkaverse.com/setup.r')
+
+cat("Project: ", getwd())
+cat("CPU cores available: ", parallel::detectCores())
+RhpcBLASctl::blas_set_num_threads(parallel::detectCores()*0.8)
+session_info()
+```
+
+# Refencias
+
+> https://cran.r-project.org/web/packages/cowplot/index.html
+
+# Figuras en R
+```{r}
+# base R
+p1 <- ~{
+  par(
+    mar = c(3, 3, 1, 1), 
+    mgp = c(2, 1, 0)
+  )
+  boxplot(mpg ~ cyl, xlab = "cyl", ylab = "mpg", data = mtcars)
+}
+
+# ggplot2
+
+library(ggplot2)
+p2 <- ggplot(data = mtcars, aes(factor(cyl), mpg)) + geom_boxplot()
+
+# lattice
+
+library(lattice)
+p3 <- bwplot(~mpg | cyl, data = mtcars)
+
+# elementary grid graphics objects
+
+library(grid)
+p4 <- circleGrob(r = 0.3, gp = gpar(fill = "skyblue"))
+
+```
+
+
+## Figuras Importadas
+```{r}
+
+```
+
+
+# Importar imagenes 
+```{r}
+library(png)
+library(jpeg)
+
+plot01 <- readJPEG("E002.jpg") %>% grid::rasterGrob()
+plot02 <- readJPEG("E003.jpg") %>% grid::rasterGrob()
+plot03 <- readJPEG("E004.jpg") %>% grid::rasterGrob()
+```
+## Grid plot de figuras importadas 
+```{r}
+plot <- list(p1, p2, p3, p4) %>% 
+  plot_grid(plotlist = .
+            , rel_heights = c(1,1)
+            , nrow = 2
+            , labels = "AUTO"
+            )
+```
+
+## Grid plots
+
+```{r}
+top <- list(plot01, plot02) %>% plot_grid(plotlist = .
+            , labels = "auto"
+            )
+
+plot <- list(top, plot03) %>% plot_grid(plotlist = .
+            , nrow = 2
+            , labels = "auto"
+            )
+
+plot
+
+## guardamos
+
+plot %>% ggsave2(plot = .
+          ,filename = "grid.jpg"
+          , units = "cm"
+          , width = 30
+          , height = 20
+          )
+## paquete magick para rotar, cortar o hacer imagenes en movimiento. 
+
+```
+
+## Grid plot de figuras importadas 
+```{r}
+plot <- list(p1, p2, p3, p4) %>% 
+  plot_grid(plotlist = .
+            , rel_heights = c(1,1)
+            , nrow = 2
+            , labels = "AUTO"
+            )
+```
+
+## Guardar figura
+
+```{r}
+plot %>% ggsave2(plot = .
+          ,filename = "Figura_01.eps"
+          , units = "cm"
+          , width = 20
+          , height = 20
+          )
+
+# formato **eps** para descargar con menos peso. 
+# para abrir un eps, descargar INkscape de ninite 
+```
+
+## PDF to TIFF
+
+```{r}
+pdf2tiff <- list.files(".", pattern = "Fig.*pdf", full.names = T) 
+
+imgs <- 1:length(pdf2tiff) %>% map(\(x) {
+  
+  filename <- pdf2tiff[x] %>% gsub(".pdf", "\\1.tiff", .) 
+  
+  pdf2tiff[x] %>% 
+    image_read_pdf() %>% 
+    image_write(format = "tiff", filename)
+  
+})
+```

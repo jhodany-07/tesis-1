@@ -1,0 +1,34 @@
+---
+title: "Complejo parasitoides y _Spodoptera Frugiperda_ asociados al cultivo de maíz (_Zea mays_) en la región Amazonas, Perú"
+format: html
+editor: visual
+image: profile.jpg
+about: 
+  template: trestles
+  image-shape: rectangle 
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/jhodany-07/tesis-1.git 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: Facebook
+      text: Facebook
+      href: https://facebook.com
+---
+
+## Problema de investigación
+
+¿Qué especies de parasitoides están asociadas a Spodoptera Frugiperda en cultivo de maíz (Zea mays) en la región Amazonas, Perú?
+
+## Objetivos
+
+### Objetivo General
+Identificar taxonómicamente los parasitoides asociados al cultivo de maíz (Zea mays) en la región Amazonas, Perú.
+### Objetivos Especificos
+- Realizar muestreos de parasitoides en parcelas de cultivo de maíz en diferentes localidades de Amazonas.
+- Identificar morfológicamente los parasitoides utilizando claves taxonómicas.
+- Elaborar un listado preliminar de las especies de parasitoides encontradas.
+
+
