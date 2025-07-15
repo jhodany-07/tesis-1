@@ -1,7 +1,7 @@
 ---
 title: "PROYECTO DE TESIS"
-editor: visual
 format: html
+editor: visual
 page-navigation: true
 image: Imagen1.png
 about: 
@@ -21,6 +21,6 @@ about:
 
 Complejo parasitoide asociado a *Spodoptera Frugiperda* en cultivo de maíz (*Zea mays*) en tres pisos altitudinales de la región Amazonas, Perú
 
-Autora: Parejas Gonzales, Jhodany
+-   Autora: Parejas Gonzales, Jhodany
 
-Asesor:  Dr. Leiva Espinoza, Santos Triunfo
+-   Asesor: Dr. Leiva Espinoza, Santos Triunfo

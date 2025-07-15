@@ -1,5 +1,6 @@
 ---
 title: "Objetivos"
+format: html
 editor: visual
 image: Imagen3.png
 about: 

@@ -1,5 +1,6 @@
 ---
 title: "Antecedentes de la Investigación"
+format: html
 editor: visual
 ---
 

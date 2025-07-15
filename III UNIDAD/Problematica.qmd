@@ -1,5 +1,6 @@
 ---
 title: "Problema de Investigación"
+format: html
 editor: visual
 ---
 
@@ -8,3 +9,5 @@ En el Perú, el maíz es un cultivo de gran importancia económica y alimentaria
 Debido a su importancia económica, el cultivo de maíz enfrenta grandes desafíos en su manejo, especialmente en el ámbito fitosanitario. En los últimos años, ha sido afectado por una gran diversidad de plagas, entre las cuales destaca el \"cogollero del maíz\" (*Spodoptera frugiperda*) (Trejo et.al., 2019), considerada una de las más agresivas y dañinas. Esta plaga representa una seria amenaza para la productividad del cultivo, afectando especialmente las etapas iniciales de desarrollo de la planta (Abbas et.al., 2022).Por lo que muchos agricultores han optado por el control químico para combatir al cogollero del maíz. Sin embargo, el uso frecuente e intensivo de insecticidas ha provocado que la plaga desarrolle resistencia. Además, este tipo de control afecta al medio ambiente y a otros insectos beneficiosos (Yao et.al., 2023).
 
 Como alternativa, el control biológico surge como una alternativa de control amigable con el medio ambiente (González-Maldonado et.al., 2015). Siendo una de las técnicas del control biológico usar agentes de biocontrol como entomopatógenos, parasitoides y depredadores (Yao et.al., 2023). En la búsqueda de saber que agentes de biocontrol encontramos en nuestra región nos preguntamos, ¿Qué especies de parasitoides están asociadas a *Spodoptera Frugiperda* en cultivo de maíz (*Zea mays*) en tres pisos altitudinales la región Amazonas, Perú?
+
+

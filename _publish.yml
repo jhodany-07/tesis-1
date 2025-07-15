@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: bdef6d64-ec2c-4b2c-bb29-1875fdf69d7d
+      url: 'https://jhodany.quarto.pub/proyecto-de-tesis'

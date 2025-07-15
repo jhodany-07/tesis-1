@@ -1,5 +1,6 @@
 ---
 title: "Referencias Bibliográficas"
+format: html
 editor: visual
 ---
 Abbas, A., Ullah, F., Hafeez, M., Han, X., Dara, M. Z. N., Gul, H., & Zhao, C. R. (2022). Biological Control of Fall Armyworm, Spodoptera frugiperda. Agronomy, 12(11), Article 11. https://doi.org/10.3390/agronomy12112704

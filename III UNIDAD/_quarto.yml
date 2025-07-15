@@ -2,18 +2,21 @@ project:
   type: website
 
 website:
-  title: "Jhodany Parejas Gonzales"
+  title: "Proyecto de Tesis"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: "Made with ❤️ and Quarto"
+  page-navigation: true
   navbar:
     background: primary
     search: true
     left:
       - text: "Home"
         href: index.qmd
-      - ANTECEDENTES.qmd
-      - METODOLOGIA.qmd
-      - REFERENCIAS.qmd
+      - Probematica.qmd
+      - Objetivos.qmd
+      - Antecedentes.qmd
+      - Metodología.qmd
+      - Referencia.qmd
     right:
       - icon: github
         href: https://github.com/jhodany-07/tesis-1.git  
