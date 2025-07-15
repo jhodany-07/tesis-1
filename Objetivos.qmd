@@ -1,0 +1,22 @@
+---
+title: "Objetivos"
+editor: visual
+image: Imagen3.png
+about: 
+  template: trestles
+  image-shape: rectangle
+---
+
+## Objetivo General
+
+Identificar taxonómicamente el complejo parasitoide asociado a *Spodoptera Frugiperda* en cultivo de maíz (*Zea mays*) en tres pisos altitudinales de la región Amazonas, Perú.
+
+## Objetivos Especificos
+
+-   Identificar morfológicamente a Spodoptera sp, presente en plantaciones de maíz de tres pisos altitudinales de la región Amazonas.
+
+-   Evaluar la presencia de parasitoides asociados a Spodoptera Frugiperda en diferentes estadios de desarrollo (huevo, larva y pupa) mediante la colecta en campo y crianza bajo condiciones controladas.
+
+-   Identificar morfológicamente los parasitoides asociados a Spodoptera Frugiperda utilizando claves taxonómicas.
+
+-   Analizar diversidad taxonómica (familia, género y especies) de parasitoides asociados a Spodoptera Frugiperda en los tres pisos altitudinales.

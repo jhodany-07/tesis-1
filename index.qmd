@@ -1,0 +1,26 @@
+---
+title: "PROYECTO DE TESIS"
+editor: visual
+format: html
+page-navigation: true
+image: Imagen1.png
+about: 
+  template: trestles
+  image-shape: rectangle 
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/jhodany-07/Semillas-Jhodany.git 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: Facebook
+      text: Facebook
+      href: https://facebook.com
+---
+
+Complejo parasitoide asociado a *Spodoptera Frugiperda* en cultivo de maíz (*Zea mays*) en tres pisos altitudinales de la región Amazonas, Perú
+
+Autora: Parejas Gonzales, Jhodany
+
+Asesor:  Dr. Leiva Espinoza, Santos Triunfo

@@ -5,10 +5,9 @@ editor: visual
 ---
 
 # Markdown
+
 ## Letritas
-**negrita**
-_italica_
 
+**negrita** *italica*
 
-#Latex
-$$\frac{a + b}{c - d}$$
+#Latex $$\frac{a + b}{c - d}$$

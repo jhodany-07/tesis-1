@@ -1,0 +1,40 @@
+---
+title: "Metodología"
+editor: visual
+---
+
+## Población, muestra y muestreo
+
+### Población 
+
+La población de estudio estará constituida por plantaciones de maíz (*Zea mays*) que presenten daños y presencia de individuos de gusano cogollero (*Spodoptera frugiperda*), ubicadas en tres pisos altitudinales de la región Amazonas.
+
+### Muestra 
+
+La muestra estará constituida por diferentes estadios de *Spodoptera frugiperda* (huevo, larva y/o pupas) con apariencia de parasitismo colectados en parcelas de maíz de tres pisos altitudinales de la región Amazonas.
+
+### Muestreo
+
+Se empleará un muestreo no probabilístico intencional en parcelas de maíz representativas de diferentes pisos altitudinales de la región Amazonas. Se recolectarán muestras de larvas, pupas y huevos de *Spodoptera frugiperda* durante visitas de campo programadas (mensuales o quincenales), y posteriormente se mantendrán en laboratorio hasta la emergencia de parasitoides, que serán preservados para su identificación taxonómica.
+
+## Variables de estudio 
+
+## Métodos 
+
+### Recolección y cría de *S. frugiperda* y observación de parasitoides emergentes
+
+Se seguirá la metodología propuesta por (Lestari et.al., 2024). La exploración de parasitoides se llevará a cabo recolectando *Spodoptera frugiperda*, en tres estadios de desarrollo (huevo, larva y pupa), de plantas de maíz en tres pisos altitudinales de la región Amazonas.
+
+Loa huevos colectados serán acondicionados en táperes plásticos hasta su posterior emergencia. Las larvas neonatas se distribuirán cuidadosamente en varios reposteros de ½ L con hojas de higuerilla que servirán para su alimentación. Así mismo, se realizará la individualización de larvas como un proceso importante que evita el canibalismo.
+
+Las pupas, se acondicionarán en reposteros plásticos cilíndricos de 3 litros, cuyo interior estará forrado con papel crepé amarillo y que a su vez contendrá papel toalla embebido en agua para mantener la humedad.
+
+Los parasitoides que emerjan de cualquiera de los estadios de *Spodoptera frugiperda* (Huevo, larva y pupa)serán coleccionados para su posterior observación con equipo especializado y para la caracterización morfológica.
+
+### Identificación morfológica
+
+Para la identificación morfológica se hará uso de equipo especializado como microscopios estereoscópicos. Se observará características representativas de la familia, género o especie, por ejemplo, el color, las alas delanteras, la longitud de la franja de setas, el número de tricomas, los pelos y la forma de las antenas, así como la longitud del ovopositor. Para identificar las especies, se seguirán las claves taxonómicas de Tschorsnig & Herting, (2001) para Tachinidae, Broad, (2015) para Ichneumonidae y Gupta et.al., (2019) para Braconidae.
+
+## Análisis de datos 
+
+Los datos obtenidos se analizarán utilizando el software estadístico R. Se realizará una descripción general del complejo de parasitoides, evaluando la riqueza taxonómica (familias, géneros y especies) así como su distribución por piso altitudinal. A través de curvas de rango-abundancia (curvas de Whittaker), se analizará la distribución de la riqueza y dominancia de familias, géneros y especies en cada piso altitudinal. Además, se calculará el índice de dominancia de Simpson para identificar el grado de dominancia de ciertos taxones en cada piso altitudinal.
